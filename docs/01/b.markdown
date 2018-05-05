@@ -7,7 +7,7 @@ Turning the table
 
 Because our end goal is to get Scala source code, we reverse the flow of `scalac` to generate the code starting from AST.
 
-Scala 2.10 adds Reflection API, which allows the user peak into AST for a given code. It also includes code that turns AST into Scala source code. All we need now is to generate an AST.
+Scala 2.10 adds Reflection API, which allows the user peek into AST for a given code. It also includes code that turns AST into Scala source code. All we need now is to generate an AST.
 
 As part of `scalac`, there's also a trait called [TreeDSL][1], which can describe AST in code-like way. With both combined seems as though we have everything we need.
 
